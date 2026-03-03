@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+
+    margin: 0 auto;
+    background-color: rgba(162, 29, 29, 0.3);
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 8fr 1.5fr 4fr .5fr 1.5fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1.5fr 0.5fr 1.5fr 6.5fr 2.5fr 2.5fr 0.5fr 5.5fr 6fr 1.5fr 1fr;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    min-height: 0;
+}
+
+#logo {
+    background-color: rgba(112, 225, 6, 0.3);
+    grid-row: 3 / 4;
+    grid-column: 4 / 5;
+}
+
+header {
+    background-color: rgba(30, 0, 255, 0.3);
+    ;
+    grid-row: 2 / 6;
+    grid-column: 2 / 9;
+}
+
+nav {
+    background-color: rgba(0, 255, 255, 0.3);
+    grid-row: 5 / 6;
+    grid-column: 3 / 7;
+}
+
+#homehero {
+    background-color: rgba(255, 0, 204, 0.3);
+    ;
+    width: auto;
+    max-width: 100%;
+    grid-row: 6 / 9;
+    grid-column: 2 / 9;
+}
+
+aside {
+    background-color: rgba(166, 0, 255, 0.3);
+    ;
+    grid-row: 7 / 8;
+    grid-column: 6 / 8;
+}
+
+main {
+    background-color: rgba(123, 255, 0, 0.3);
+    ;
+    grid-row: 9 / 12;
+    grid-column: 2 / 9;
+}
+
+#main-text {
+    background-color: rgba(255, 0, 0, 0.3);
+    ;
+    grid-row: 10 / 11;
+    grid-column: 3 / 7;
+}
+
+section {
+    grid-row: 10 / 11;
+    grid-column: 3 / 7;
+}
+
+footer {
+    background-color: rgba(0, 217, 255, 0.3);
+    ;
+    grid-row: 12 / 13;
+    grid-column: 2 / 9;
+}
+
+#footer-text {
+    background-color: rgba(43, 43, 42, 0.3);
+    ;
+    grid-row: 12 / 13;
+    grid-column: 4 / 6;
+}
