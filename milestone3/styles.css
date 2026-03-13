@@ -3,13 +3,13 @@
 }
 
 #wrapper {
-
+    min-width: 500px;
     margin: 0 auto;
     background-color: rgba(162, 29, 29, 0.3);
     display: grid;
     grid-template-columns: 1fr 2fr 4fr 8fr 1.5fr 4fr .5fr 1.5fr 1fr;
     grid-template-rows: 1fr 0.5fr 1.5fr 0.5fr 1.5fr 6.5fr 2.5fr 2.5fr 0.5fr 5.5fr 6fr 1.5fr 1fr;
-    width: 100%;
+    width: 75%;
     aspect-ratio: 3 / 4;
     min-height: 0;
 }
