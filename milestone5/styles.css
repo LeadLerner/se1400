@@ -170,6 +170,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     #wrapper {
+        aspect-ratio: 9/20;
         grid-template-columns: 0fr 2fr 4fr 8fr 100% 4fr .35fr 1.5fr 0fr;
         grid-template-rows: 0fr 0.5fr 1.5fr 0.5fr 1.5fr 6.5fr 2.5fr 2.5fr 0.5fr 5.5fr 6fr 1.5fr 0fr;
     }
